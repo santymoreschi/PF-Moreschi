@@ -1,0 +1,18 @@
+//botones
+
+
+
+
+
+/*condiciones-de-servicio*/
+.condiciones {
+    margin: 10px;
+    text-align: center;
+    height: 50px;
+    background-color: map-get($botones, boton-secundario);
+    /*empecemos*/
+    button {
+    width: 100%;
+    }
+}
+

@@ -1,0 +1,371 @@
+/* Error: Undefined variable.
+ *    ,
+ * 21 | @if $vista == desktop{
+ *    |     ^^^^^^
+ *    '
+ *   scss\_generales.scss 21:5  @import
+ *   scss\estilos.scss 2:9      root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono","Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+}
+
+/*body*/
+body {
+  background-color: white;
+  margin: 0%;
+  height: 0.1%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 3rem;
+  min-width: 100vh;
+}
+
+/*header*/
+header {
+  background-color: black;
+  margin: 0px;
+  width: 100%;
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+header :hover{
+  transition: all;
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+/*título*/
+h1 {
+  margin: 0px;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  width: 100%;
+  padding: 100px;
+  color: white;
+  background-color: black;
+}
+
+
+/*sub-menu*/
+h2 {
+  margin: 40px;
+  padding: 70px;
+  text-align: center;
+  color: black;
+  padding: auto;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 3em;
+}
+
+/*lleva-tu-gimnasio-al-limite*/
+h3 {
+  margin: 30px;
+  padding: 60px;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/*párrafos*/
+p {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0.7rem 0.7rem;
+  font-size: 2em;
+  text-align: justify;
+  margin: 90px;
+  padding: 1%;
+}
+
+/*imágenes*/
+img {
+  max-width: 100%;
+  transition: all 300ms;
+  position: relative;
+}
+
+/*grid-layout*/
+.grid-layout {
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: repeat(5, 1fr);
+  line-height: 550px;
+  background-color: black;
+  border: solid black;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  transition:1s;
+}
+.grid-layout .caja1:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+.grid-layout .caja2:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+.grid-layout .caja3:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+.grid-layout .caja4:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+.grid-layout .caja5:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+
+/*footer*/
+footer {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  line-height: 40px;
+  padding: 1rem 0;
+  position: absolute;
+  width: 100%;
+  margin-top: 0%;
+  /*boton-inicio*/
+  /*#everlasthaedoboxing*/
+  /*somos-deporte*/
+  /*logos-redes-sociales*/
+  /*copyright*/
+}
+footer ul li {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer h4 {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  justify-content: space-around;
+}
+footer h5 {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  margin: 0.7rem 0.7rem;
+  font-size: 1em;
+}
+footer .grid-logos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2px;
+  transition: all 300ms;
+}
+footer .grid-logos :hover{
+  transform: scale(1.15);
+}
+footer .logo {
+  text-align: center;
+  line-height: 80px;
+}
+footer h6 {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  margin: 0.7rem 0.7rem;
+  font-size: 1em;
+  background-color: black;
+}
+
+/*menu*/
+nav {
+  margin: 0px;
+  background-color: black;
+  font-size: large;
+  /*menú-hamburguesa*/
+}
+nav li {
+  padding: 0%;
+  text-decoration: none;
+  margin: 0rem 0.7rem;
+  text-align: center;
+}
+nav .navbar-toogler {
+  width: 10%;
+  background-color: black;
+  border: solid black;
+  filter: invert(0);
+  cursor: pointer;
+  margin: 0px;
+}
+nav .navbar-toggler-icon{
+  float: left;
+}
+@media screen and (min-width:570px){
+  .navbar-toogler{
+    display: none;
+  }
+}
+
+#nav-item{
+  justify-content: center;
+  
+}
+
+/*video-segundo-round-y-ganador-flex*/
+iframe {
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  margin: 0% auto;
+  width: 95%;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: solid black;
+}
+
+/*ubicaciones*/
+.flex-ubicaciones {
+  padding: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-revendedores {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*contenido*/
+#flex-content {
+  padding: 90px;
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+  grid-template-columns: repeat(5, 1fr);
+}
+#flex-content :hover {
+  transform: scale(1.15);
+}
+
+
+/*Segunda-página-contacto*/
+#contact {
+  margin: 0px;
+  padding: 17px;
+  line-height: 50px;
+  margin: 0.7rem 0.7rem;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin: 40px;
+}
+
+/*from*/
+form {
+  background-color: beige;
+  border: solid black;
+  border-radius: 10px;
+  margin: 0px;
+}
+form label {
+  margin: 8px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+}
+form #iname {
+  margin: 3px;
+}
+form #insurname {
+  margin: 3px;
+}
+form #iemail {
+  margin: 4px;
+}
+form iframe {
+  margin: 20px;
+}
+
+/*enlase*/
+.enlase {
+  background-color: beige;
+  border: solid black;
+  border-radius: 10px;
+  margin: 20%;
+  
+  
+  /*iniciar-sesión*/
+}
+.enlase .col-md-6 {
+  margin: 10%;
+}
+.enlase .col-12 {
+  width: auto;
+  margin: 10%;
+}
+.enlase .row g-3 {
+  margin: 10%;
+}
+.enlase .col-md-4 {
+  margin: 10%;
+}
+.enlase .col-md-2 {
+  margin: 10%;
+}
+
+/*flex-container*/
+.flex-container {
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  margin: 10%;
+  width: auto;
+  padding: 30px;
+  /*flex-wrap: wrap;
+  flex-flow: row wrap;*/
+  justify-content: space-around;
+  border: solid black;
+  background-color: wheat;
+}
+
+
+
+/*condiciones-de-servicio*/
+.condiciones {
+  margin: 10px;
+  text-align: center;
+  height: 50px;
+}
+/*empecemos*/
+.condiciones .button{
+  width: 100%;
+}
+
+.boxeo1{
+  transition: all 300ms;
+  padding: 20px;
+  min-width: 0%;
+}
+.boxeo1 :hover{
+  transform: scale(1.1);
+}
+
+
+/*# sourceMappingURL=estilos.css.map */

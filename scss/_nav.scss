@@ -1,0 +1,33 @@
+//menu de navegacion
+
+
+/*menu*/
+nav {
+    margin: 0px;
+    background-color: $color-secundario;
+    font-size: large;
+
+    li {
+        padding: 0%;
+        text-decoration: none;
+        margin: 0rem 0.7rem;
+    }
+
+    /*menú-hamburguesa*/
+    .navbar-toogler {
+        width: 10%;
+        background-color: $color-secundario;
+        border: solid $color-secundario;
+        filter: invert(0);
+        cursor: pointer;
+        margin: 0px;
+    }
+    .navbar-toggler-icon {
+    float: left
+    }
+    @media screen and (min-width:570px) {
+        .navbar-toogler {
+        display: none;
+        }
+    }
+}

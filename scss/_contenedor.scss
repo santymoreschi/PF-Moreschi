@@ -1,0 +1,16 @@
+//Contenedor
+
+/*flex-container*/
+.flex-container {
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    margin: 0% auto;
+    width: auto;
+    padding: 30px;
+    /*flex-wrap: wrap;
+    flex-flow: row wrap;*/
+    justify-content: space-around;
+    border: solid $color-secundario;
+    background-color: $container;
+}
