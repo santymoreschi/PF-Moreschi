@@ -239,6 +239,13 @@ iframe {
   border: solid black;
 }
 
+.aceptar{
+  text-align: center;
+  margin: 50px;
+}
+
+
+
 /*ubicaciones*/
 .flex-ubicaciones {
   padding: 3px;
@@ -264,7 +271,6 @@ iframe {
   transform: scale(1.15);
 }
 
-
 /*Segunda-página-contacto*/
 #contact {
   margin: 0px;
@@ -276,6 +282,7 @@ iframe {
   font-size: x-large;
   margin: 40px;
 }
+
 
 /*from*/
 form {
@@ -309,8 +316,6 @@ form iframe {
   border: solid black;
   border-radius: 10px;
   margin: 20%;
-  
-  
   /*iniciar-sesión*/
 }
 .enlase .col-md-6 {
