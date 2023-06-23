@@ -2,13 +2,15 @@
 
 /*ubicaciones*/
 .flex-ubicaciones {
-    padding: 30px;
+    max-width: 90%;
+    padding: 0%;
     display: flex;
-    justify-content: space-around;
+    margin: 10%;
 }
 
 .flex-revendedores {
-    padding: 30px;
+    padding: 0px;
+    max-width: 90%;
     display: flex;
-    justify-content: space-around;
+    margin: 10%;
 }

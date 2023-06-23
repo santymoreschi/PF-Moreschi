@@ -86,11 +86,12 @@ p {
   text-align: justify;
   margin: 90px;
   padding: 1%;
+  max-width: 85%;
 }
 
 /*imágenes*/
 img {
-  max-width: 100%;
+  max-width: 85%;
   transition: all 300ms;
   position: relative;
 }
@@ -232,7 +233,7 @@ iframe {
   padding: 0px;
   flex-direction: row;
   margin: 0% auto;
-  width: 95%;
+  width: 90%;
   flex-wrap: wrap;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -248,15 +249,17 @@ iframe {
 
 /*ubicaciones*/
 .flex-ubicaciones {
-  padding: 3px;
+  max-width: 90%;
+  padding: 0%;
   display: flex;
-  justify-content: space-around;
+  margin: 10%;
 }
 
 .flex-revendedores {
-  padding: 30px;
+  padding: 0px;
+  max-width: 90%;
   display: flex;
-  justify-content: space-around;
+  margin: 10%;
 }
 
 /*contenido*/
@@ -273,7 +276,7 @@ iframe {
 
 /*Segunda-página-contacto*/
 #contact {
-  margin: 0px;
+  margin: 20%;
   padding: 17px;
   line-height: 50px;
   margin: 0.7rem 0.7rem;
@@ -289,10 +292,11 @@ form {
   background-color: beige;
   border: solid black;
   border-radius: 10px;
-  margin: 0px;
+  margin: 10%;
+  padding: 0px;
 }
 form label {
-  margin: 8px;
+  margin: 3%;
   padding: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
@@ -302,9 +306,11 @@ form #iname {
 }
 form #insurname {
   margin: 3px;
+  
 }
 form #iemail {
   margin: 4px;
+  
 }
 form iframe {
   margin: 20px;
@@ -315,7 +321,7 @@ form iframe {
   background-color: beige;
   border: solid black;
   border-radius: 10px;
-  margin: 20%;
+  margin: 25%;
   /*iniciar-sesión*/
 }
 .enlase .col-md-6 {
