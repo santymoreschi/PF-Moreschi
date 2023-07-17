@@ -1,14 +1,15 @@
 //mercado-foto de guantes - fotos de bolsa - etc.
 
-
 /*contenido*/
-#flex-content {
-    padding: 90px;
+section {
+    padding: 0px;
     display: flex;
     margin: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
     grid-template-columns: repeat(5, 1fr);
     #flex-content :hover {
     transform: scale(1.15);
     }
 }
+
+//actualizado

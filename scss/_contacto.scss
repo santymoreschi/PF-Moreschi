@@ -1,79 +1,75 @@
 //contacto
 
 /*Segunda-página-contacto*/
-#contact {
-    margin: 0px;
-    padding: 17px;
-    line-height: 20px;
-    margin: 0.7rem 0.7rem;
-    display: flex;
-    justify-content: center;
-    font-size: x-large;
-}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
 
-/*from*/
-form {
-    background-color:$fondo;
-    border: solid $color-secundario;
-    border-radius: 10px;
-    margin: 10%;
-    padding: 0px;
+    .form-group {
+        margin-bottom: 20px;
+    }
 
     label {
-        margin: 3%;
-        padding: 0px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        display: flex;
+        font-weight: bold;
     }
 
-    #iname {
-        margin: 3px;
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    textarea,
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
     }
 
-    #insurname {
-        margin: 3px;
+    textarea {
+        height: 150px;
     }
 
-    #iemail {
-        margin: 4px;
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
     }
 
-    iframe {
-        margin: 20px;
-    }
-}
-
-/*enlase*/
-.enlase {
-    background-color: $fondo;
-    border: solid $color-secundario;
-    border-radius: 10px;
-    margin: 20%;
-
-    /*iniciar-sesión*/
-    .col-md-6 {
-        margin: 10%;
-    }
-
-    .col-12 {
-        width: auto;
-        margin: 10%;
-    }
-
-    .row g-3 {
-        margin: 10%;
-    }
-
-    .col-md-4 {
-        margin: 10%;
-    }
-
-    .col-md-2 {
-        margin: 10%;
+    .contact-form-container {
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-bottom: 20px;
     }
 }
 
-.aceptar{
+.map-container {
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+.aceptar {
     text-align: center;
     margin: 50px;
 }
+
+//actualizado
